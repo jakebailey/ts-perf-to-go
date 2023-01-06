@@ -1,0 +1,19 @@
+{
+  "name": "ts-perf-to-go",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "author": "",
+  "license": "MIS",
+  "devDependencies": {
+    "@tsconfig/node14": "^1.0.3",
+    "@types/foreground-child": "^2.0.0",
+    "@types/node": "^14.18.35",
+    "@types/tmp": "^0.2.3"
+  },
+  "dependencies": {
+    "foreground-child": "^2.0.0",
+    "tmp": "^0.2.1"
+  }
+}
