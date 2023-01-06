@@ -2,7 +2,13 @@
 
 This repo contains scripts which convert ts-perf's `.benchmark` files to Go's benchmark output format.
 
-For example:
+To run this, you'll need Go and have run:
+
+```sh
+$ go install golang.org/x/perf/cmd/benchstat@latest
+```
+
+Then, for example:
 
 ```sh
 $ ./tsbenchstat.mjs main-2.benchmark pr49929-2.benchmark
