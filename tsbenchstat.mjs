@@ -13,7 +13,7 @@ const childArgs = process.argv.slice(2).map((filename, index) => {
     const content = convert(filename);
     const outPath = path.join(tmpDir, `${index}.txt`);
     fs.writeFileSync(outPath, content);
-    return outPath;
+    return `${path.basename(filename)}=${outPath}`;
 });
 
 foregroundChild("benchstat", childArgs);
